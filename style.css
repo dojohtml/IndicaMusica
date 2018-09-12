@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+p{
+font-family:'Sawarabi Mincho';
+}
+h1,h2{
+font-family:'Sawarabi Mincho';
+}
+
+body{
+	text-align: center;
+	vertical-align: widdle;
+	padding-top: 15%;
+	background-color:rgba(249,196,52,0.4);
+	
+}
+.btd{
+	padding-top: 10px;
+}
+
+
+/*
+.container{
+
+}
+*/

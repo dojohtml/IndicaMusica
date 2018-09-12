@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Recomendador de Músicas</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="index.js"></script>
+		
+	</head>
+	<body>
+	    <div id="box">
+			<h1>Recomendador de Músicas</h1>
+			<h2>Preencha as informações abaixo.</h2>
+				<div class="perguntas">
+					<form>
+						<div>
+							<p>Qual o seu Signo?</p>
+							<select id="signo">
+								  <option value="10">Aries</option>
+								  <option value="20">Touro</option>
+								  <option value="30">Gemeos</option>
+								  <option value="40">Cancer</option>
+								  <option value="50">Leão</option>
+								  <option value="60">Virgem</option>
+								  <option value="70">Libra</option>
+								  <option value="80">Escorpião</option>
+								  <option value="90">Sargitario</option>
+								  <option value="100">Capricornio</option>
+								  <option value="110">Aquario</option>
+								  <option value="120">Peixes</option>
+						    </select>
+
+						</div>
+						<div>
+							<p>Como você está se sentindo?</p>
+								<select id="sentindo">
+								  <option value="10">Ótimo</option>
+								  <option value="20">Bem</option>
+								  <option value="30">Normal</option>
+								  <option value="40">Muito Mal</option>
+								 </select>
+						</div>
+						<div>
+							<p>Qual a sua Idade?</p>
+							<input type="number" id="Idade"/>
+
+						</div>
+						<div>
+							<p>Dentre esses 4 filmes, qual você mais gosta?</p>
+							<select id="filmes">
+								  <option value="10">Se Beber não Case</option>
+								  <option value="20">Matrix</option>
+								  <option value="30">Laranja mecanica</option>
+								  <option value="40">Ps eu te amo</option>
+								 </select>
+						</div>
+						<div>
+							<p>Dentre esses 4 carros, qual você mais gosta?</p>
+								<select id="carros">
+								  <option value="10">Volvo</option>
+								  <option value="20">Saab</option>
+								  <option value="30">Mercedes</option>
+								  <option value="40">Audi</option>
+								 </select>
+						</div>
+						<div>
+							<p>Dentre esses 4 atores(atrizes), qual você mais gosta?</p>
+							    <select id="atores">
+								  <option value="10">Mark Salling</option>
+								  <option value="20">Johnny Depp</option>
+								  <option value="30">Hugh Jackman</option>
+								  <option value="40">Chris Hemsworth</option>
+								 </select>
+
+						</div>
+						
+					</form>
+				</div>	
+						<div class="btd">
+				 			<button id="botao" onclick="escolherMusica()" type="submit">Recomendar Musica</button>
+						</div>
+
+		</div>
+		
+		
+	</body>
+</html>
